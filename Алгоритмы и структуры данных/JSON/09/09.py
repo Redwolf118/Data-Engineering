@@ -42,7 +42,6 @@ student = {
 #     "Возраст": 24,
 # }
 
-# Проверка
 errors = validate_json(student, template)
 
 if errors:

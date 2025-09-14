@@ -2,8 +2,6 @@
 # Реализуйте сжатие JSON-данных перед сохранением в файл и их распаковку при чтении.
 
 import json
-
-import json
 import gzip
 
 student_data = {
@@ -12,7 +10,6 @@ student_data = {
     "courses": ["Математика", "Физика"]
 }
 
-# Имя файла
 filename = "student_data.json.gz"
 
 # Сохранение
